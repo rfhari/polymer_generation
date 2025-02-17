@@ -1,0 +1,20 @@
+#!/bin/bash                                                                                                                          
+
+#SBATCH -J esm3
+#SBATCH -p batch
+#SBATCH -o esm3_%j.txt
+#SBATCH --time=20:00:00
+#SBATCH -N 1
+#SBATCH --ntasks=32
+#SBATCH --mem=800G
+##SBATCH --gpus=1
+
+MINICONDA_PATH=/trace/group/mcgaughey/hariharr/miniconda3
+source $MINICONDA_PATH/etc/profile.d/conda.sh
+
+conda activate /trace/group/mcgaughey/hariharr/esm3/esm_env
+conda info
+
+export PYTHONPATH=/trace/group/mcgaughey/hariharr/esm3/esm:$PYTHONPATH
+
+python train_main.py

@@ -1,0 +1,1207 @@
+
+     active environment : /trace/group/mcgaughey/hariharr/esm3/esm_env
+    active env location : /trace/group/mcgaughey/hariharr/esm3/esm_env
+            shell level : 2
+       user config file : /trace/home/hariharr/.condarc
+ populated config files : /trace/home/hariharr/.condarc
+          conda version : 23.10.0
+    conda-build version : not installed
+         python version : 3.11.5.final.0
+       virtual packages : __archspec=1=zen3
+                          __glibc=2.28=0
+                          __linux=4.18.0=0
+                          __unix=0=0
+       base environment : /trace/group/mcgaughey/hariharr/miniconda3  (writable)
+      conda av data dir : /trace/group/mcgaughey/hariharr/miniconda3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://conda.anaconda.org/conda-forge/linux-64
+                          https://conda.anaconda.org/conda-forge/noarch
+                          https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /trace/group/mcgaughey/hariharr/miniconda3/pkgs
+                          /trace/home/hariharr/.conda/pkgs
+       envs directories : /trace/group/mcgaughey/hariharr/miniconda3/envs
+                          /trace/home/hariharr/.conda/envs
+               platform : linux-64
+             user-agent : conda/23.10.0 requests/2.31.0 CPython/3.11.5 Linux/4.18.0-477.27.1.el8_8.x86_64 rhel/8.8 glibc/2.28 solver/libmamba conda-libmamba-solver/23.11.1 libmambapy/1.5.3
+                UID:GID : 2663120:100
+             netrc file : None
+           offline mode : False
+
+
+pwd: /trace/group/mcgaughey/hariharr/esm3
+Fetching 22 files:   0%|          | 0/22 [00:00<?, ?it/s]Fetching 22 files: 100%|██████████| 22/22 [00:00<00:00, 8634.29it/s]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+before epoch protein_tensor check grad: ESMProteinTensor(sequence=tensor([172,  24,  31,  31,  31,  33, 175]), structure=None, secondary_structure=None, sasa=None, function=None, residue_annotations=None, coordinates=None, potential_sequence_of_concern=False)
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+after epoch target output check grad: True
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+before epoch protein_tensor check grad: ESMProteinTensor(sequence=tensor([172,  24,  31,  31,  31,  33, 175]), structure=None, secondary_structure=None, sasa=None, function=None, residue_annotations=None, coordinates=None, potential_sequence_of_concern=False)
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+after epoch target output check grad: True
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+before epoch protein_tensor check grad: ESMProteinTensor(sequence=tensor([172,  24,  31,  31,  31,  33, 175]), structure=None, secondary_structure=None, sasa=None, function=None, residue_annotations=None, coordinates=None, potential_sequence_of_concern=False)
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+after epoch target output check grad: True
+from smilesdataset: HeC__O HeCCCO
+from smilesdataset: Li__CN LiCCCN
+from smilesdataset: P__LiN PCCLiN
+input_seq: ('HeC__O', 'Li__CN', 'P__LiN')
+target_seq: ('HeCCCO', 'LiCCCN', 'PCCLiN')
+protein target check grad: ESMProtein(sequence='HeCCCO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='LiCCCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='PCCLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+within this instance ESMProtein(sequence='HeC__O', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  2.68it/s]100%|██████████| 2/2 [00:00<00:00,  2.68it/s]100%|██████████| 2/2 [00:00<00:00,  2.68it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='HeCcHgO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  2.27it/s]100%|██████████| 2/2 [00:00<00:00,  2.54it/s]100%|██████████| 2/2 [00:00<00:00,  2.49it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: HeCL@O
+within this instance ESMProtein(sequence='Li__CN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  2.90it/s]100%|██████████| 2/2 [00:00<00:00,  2.84it/s]100%|██████████| 2/2 [00:00<00:00,  2.85it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='LiIn-CN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.18it/s]100%|██████████| 2/2 [00:00<00:00,  3.16it/s]100%|██████████| 2/2 [00:00<00:00,  3.16it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: LiInRuCN
+within this instance ESMProtein(sequence='P__LiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.21it/s]100%|██████████| 2/2 [00:00<00:00,  3.19it/s]100%|██████████| 2/2 [00:00<00:00,  3.19it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='PrSLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.20it/s]100%|██████████| 2/2 [00:00<00:00,  3.15it/s]100%|██████████| 2/2 [00:00<00:00,  3.16it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: PNAcLiN
+c: ['HeCL@O', 'LiInRuCN', 'PNAcLiN']
+output seq after generation: ['HeCL@O', 'LiInRuCN', 'PNAcLiN']
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+Output logits requires_grad: torch.Size([21, 500])
+Target logits requires_grad: torch.Size([21])
+Epoch 1/10, Loss: 6.5159
+from smilesdataset: Li__CN LiCCCN
+from smilesdataset: HeC__O HeCCCO
+from smilesdataset: P__LiN PCCLiN
+input_seq: ('Li__CN', 'HeC__O', 'P__LiN')
+target_seq: ('LiCCCN', 'HeCCCO', 'PCCLiN')
+protein target check grad: ESMProtein(sequence='LiCCCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='HeCCCO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='PCCLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+within this instance ESMProtein(sequence='Li__CN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  2.74it/s]100%|██████████| 2/2 [00:00<00:00,  2.77it/s]100%|██████████| 2/2 [00:00<00:00,  2.76it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='LiCCCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.03it/s]100%|██████████| 2/2 [00:00<00:00,  3.06it/s]100%|██████████| 2/2 [00:00<00:00,  3.06it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: LiCCCN
+within this instance ESMProtein(sequence='HeC__O', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.24it/s]100%|██████████| 2/2 [00:00<00:00,  3.19it/s]100%|██████████| 2/2 [00:00<00:00,  3.20it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='HeCCCO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.15it/s]100%|██████████| 2/2 [00:00<00:00,  3.14it/s]100%|██████████| 2/2 [00:00<00:00,  3.14it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: HeCCCO
+within this instance ESMProtein(sequence='P__LiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.25it/s]100%|██████████| 2/2 [00:00<00:00,  3.21it/s]100%|██████████| 2/2 [00:00<00:00,  3.22it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='PCCLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.19it/s]100%|██████████| 2/2 [00:00<00:00,  3.19it/s]100%|██████████| 2/2 [00:00<00:00,  3.19it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: PCCLiN
+c: ['LiCCCN', 'HeCCCO', 'PCCLiN']
+output seq after generation: ['LiCCCN', 'HeCCCO', 'PCCLiN']
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+Output logits requires_grad: torch.Size([21, 500])
+Target logits requires_grad: torch.Size([21])
+Epoch 2/10, Loss: 2.9241
+from smilesdataset: P__LiN PCCLiN
+from smilesdataset: HeC__O HeCCCO
+from smilesdataset: Li__CN LiCCCN
+input_seq: ('P__LiN', 'HeC__O', 'Li__CN')
+target_seq: ('PCCLiN', 'HeCCCO', 'LiCCCN')
+protein target check grad: ESMProtein(sequence='PCCLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='HeCCCO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='LiCCCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+within this instance ESMProtein(sequence='P__LiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.00it/s]100%|██████████| 2/2 [00:00<00:00,  3.02it/s]100%|██████████| 2/2 [00:00<00:00,  3.01it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='PNLiLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.08it/s]100%|██████████| 2/2 [00:00<00:00,  3.09it/s]100%|██████████| 2/2 [00:00<00:00,  3.08it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: PLiNLiN
+within this instance ESMProtein(sequence='HeC__O', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.10it/s]100%|██████████| 2/2 [00:00<00:00,  3.08it/s]100%|██████████| 2/2 [00:00<00:00,  3.08it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='HeCTeLiO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.07it/s]100%|██████████| 2/2 [00:00<00:00,  3.07it/s]100%|██████████| 2/2 [00:00<00:00,  3.06it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: HeCNLiO
+within this instance ESMProtein(sequence='Li__CN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.14it/s]100%|██████████| 2/2 [00:00<00:00,  3.10it/s]100%|██████████| 2/2 [00:00<00:00,  3.11it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='LiNLiCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.11it/s]100%|██████████| 2/2 [00:00<00:00,  3.10it/s]100%|██████████| 2/2 [00:00<00:00,  3.10it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: LiNnCN
+c: ['PLiNLiN', 'HeCNLiO', 'LiNnCN']
+output seq after generation: ['PLiNLiN', 'HeCNLiO', 'LiNnCN']
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+Output logits requires_grad: torch.Size([21, 500])
+Target logits requires_grad: torch.Size([21])
+Epoch 3/10, Loss: 3.9223
+from smilesdataset: HeC__O HeCCCO
+from smilesdataset: Li__CN LiCCCN
+from smilesdataset: P__LiN PCCLiN
+input_seq: ('HeC__O', 'Li__CN', 'P__LiN')
+target_seq: ('HeCCCO', 'LiCCCN', 'PCCLiN')
+protein target check grad: ESMProtein(sequence='HeCCCO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='LiCCCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='PCCLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+within this instance ESMProtein(sequence='HeC__O', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  2.89it/s]100%|██████████| 2/2 [00:00<00:00,  2.94it/s]100%|██████████| 2/2 [00:00<00:00,  2.93it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='HeCNNO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.17it/s]100%|██████████| 2/2 [00:00<00:00,  3.16it/s]100%|██████████| 2/2 [00:00<00:00,  3.16it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: HeCNLiO
+within this instance ESMProtein(sequence='Li__CN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.18it/s]100%|██████████| 2/2 [00:00<00:00,  3.16it/s]100%|██████████| 2/2 [00:00<00:00,  3.16it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='LibLiCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.15it/s]100%|██████████| 2/2 [00:00<00:00,  3.15it/s]100%|██████████| 2/2 [00:00<00:00,  3.15it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: LiNNCN
+within this instance ESMProtein(sequence='P__LiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.12it/s]100%|██████████| 2/2 [00:00<00:00,  3.12it/s]100%|██████████| 2/2 [00:00<00:00,  3.12it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='PLiNLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.09it/s]100%|██████████| 2/2 [00:00<00:00,  3.12it/s]100%|██████████| 2/2 [00:00<00:00,  3.12it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: PLiLiLiN
+c: ['HeCNLiO', 'LiNNCN', 'PLiLiLiN']
+output seq after generation: ['HeCNLiO', 'LiNNCN', 'PLiLiLiN']
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+Output logits requires_grad: torch.Size([21, 500])
+Target logits requires_grad: torch.Size([21])
+Epoch 4/10, Loss: 3.1611
+from smilesdataset: HeC__O HeCCCO
+from smilesdataset: Li__CN LiCCCN
+from smilesdataset: P__LiN PCCLiN
+input_seq: ('HeC__O', 'Li__CN', 'P__LiN')
+target_seq: ('HeCCCO', 'LiCCCN', 'PCCLiN')
+protein target check grad: ESMProtein(sequence='HeCCCO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='LiCCCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='PCCLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+within this instance ESMProtein(sequence='HeC__O', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.11it/s]100%|██████████| 2/2 [00:00<00:00,  3.17it/s]100%|██████████| 2/2 [00:00<00:00,  3.16it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='HeCLiLiO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.20it/s]100%|██████████| 2/2 [00:00<00:00,  3.20it/s]100%|██████████| 2/2 [00:00<00:00,  3.19it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: HeCN*O
+within this instance ESMProtein(sequence='Li__CN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.17it/s]100%|██████████| 2/2 [00:00<00:00,  3.19it/s]100%|██████████| 2/2 [00:00<00:00,  3.18it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='LiLiLiCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.22it/s]100%|██████████| 2/2 [00:00<00:00,  3.14it/s]100%|██████████| 2/2 [00:00<00:00,  3.15it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: LiLiLiCN
+within this instance ESMProtein(sequence='P__LiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.20it/s]100%|██████████| 2/2 [00:00<00:00,  3.14it/s]100%|██████████| 2/2 [00:00<00:00,  3.14it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='PLiLiLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.23it/s]100%|██████████| 2/2 [00:00<00:00,  3.17it/s]100%|██████████| 2/2 [00:00<00:00,  3.18it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: PLiLiLiN
+c: ['HeCN*O', 'LiLiLiCN', 'PLiLiLiN']
+output seq after generation: ['HeCN*O', 'LiLiLiCN', 'PLiLiLiN']
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+Output logits requires_grad: torch.Size([21, 500])
+Target logits requires_grad: torch.Size([21])
+Epoch 5/10, Loss: 2.1835
+from smilesdataset: P__LiN PCCLiN
+from smilesdataset: HeC__O HeCCCO
+from smilesdataset: Li__CN LiCCCN
+input_seq: ('P__LiN', 'HeC__O', 'Li__CN')
+target_seq: ('PCCLiN', 'HeCCCO', 'LiCCCN')
+protein target check grad: ESMProtein(sequence='PCCLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='HeCCCO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='LiCCCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+within this instance ESMProtein(sequence='P__LiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.13it/s]100%|██████████| 2/2 [00:00<00:00,  3.16it/s]100%|██████████| 2/2 [00:00<00:00,  3.15it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='PCOLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.21it/s]100%|██████████| 2/2 [00:00<00:00,  3.25it/s]100%|██████████| 2/2 [00:00<00:00,  3.24it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: PNCLiN
+within this instance ESMProtein(sequence='HeC__O', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.23it/s]100%|██████████| 2/2 [00:00<00:00,  3.22it/s]100%|██████████| 2/2 [00:00<00:00,  3.22it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='HeCCNO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.23it/s]100%|██████████| 2/2 [00:00<00:00,  3.22it/s]100%|██████████| 2/2 [00:00<00:00,  3.22it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: HeCCCO
+within this instance ESMProtein(sequence='Li__CN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.21it/s]100%|██████████| 2/2 [00:00<00:00,  3.22it/s]100%|██████████| 2/2 [00:00<00:00,  3.22it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='LiCOCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.20it/s]100%|██████████| 2/2 [00:00<00:00,  3.21it/s]100%|██████████| 2/2 [00:00<00:00,  3.21it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: LiCCCN
+c: ['PNCLiN', 'HeCCCO', 'LiCCCN']
+output seq after generation: ['PNCLiN', 'HeCCCO', 'LiCCCN']
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+Output logits requires_grad: torch.Size([21, 500])
+Target logits requires_grad: torch.Size([21])
+Epoch 6/10, Loss: 1.5526
+from smilesdataset: P__LiN PCCLiN
+from smilesdataset: HeC__O HeCCCO
+from smilesdataset: Li__CN LiCCCN
+input_seq: ('P__LiN', 'HeC__O', 'Li__CN')
+target_seq: ('PCCLiN', 'HeCCCO', 'LiCCCN')
+protein target check grad: ESMProtein(sequence='PCCLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='HeCCCO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='LiCCCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+within this instance ESMProtein(sequence='P__LiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.16it/s]100%|██████████| 2/2 [00:00<00:00,  3.18it/s]100%|██████████| 2/2 [00:00<00:00,  3.17it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='PCCLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.21it/s]100%|██████████| 2/2 [00:00<00:00,  3.21it/s]100%|██████████| 2/2 [00:00<00:00,  3.21it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: PCCLiN
+within this instance ESMProtein(sequence='HeC__O', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.26it/s]100%|██████████| 2/2 [00:00<00:00,  3.24it/s]100%|██████████| 2/2 [00:00<00:00,  3.24it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='HeCCCO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.22it/s]100%|██████████| 2/2 [00:00<00:00,  3.23it/s]100%|██████████| 2/2 [00:00<00:00,  3.23it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: HeCCCO
+within this instance ESMProtein(sequence='Li__CN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.17it/s]100%|██████████| 2/2 [00:00<00:00,  3.20it/s]100%|██████████| 2/2 [00:00<00:00,  3.19it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='LiCCCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.18it/s]100%|██████████| 2/2 [00:00<00:00,  3.19it/s]100%|██████████| 2/2 [00:00<00:00,  3.19it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: LiCCCN
+c: ['PCCLiN', 'HeCCCO', 'LiCCCN']
+output seq after generation: ['PCCLiN', 'HeCCCO', 'LiCCCN']
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+Output logits requires_grad: torch.Size([21, 500])
+Target logits requires_grad: torch.Size([21])
+Epoch 7/10, Loss: 1.6047
+from smilesdataset: P__LiN PCCLiN
+from smilesdataset: Li__CN LiCCCN
+from smilesdataset: HeC__O HeCCCO
+input_seq: ('P__LiN', 'Li__CN', 'HeC__O')
+target_seq: ('PCCLiN', 'LiCCCN', 'HeCCCO')
+protein target check grad: ESMProtein(sequence='PCCLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='LiCCCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='HeCCCO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+within this instance ESMProtein(sequence='P__LiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.12it/s]100%|██████████| 2/2 [00:00<00:00,  3.14it/s]100%|██████████| 2/2 [00:00<00:00,  3.14it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='PCCLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.20it/s]100%|██████████| 2/2 [00:00<00:00,  3.21it/s]100%|██████████| 2/2 [00:00<00:00,  3.20it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: PCCLiN
+within this instance ESMProtein(sequence='Li__CN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.24it/s]100%|██████████| 2/2 [00:00<00:00,  3.18it/s]100%|██████████| 2/2 [00:00<00:00,  3.19it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='LiCCCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.20it/s]100%|██████████| 2/2 [00:00<00:00,  3.19it/s]100%|██████████| 2/2 [00:00<00:00,  3.19it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: LiCCCN
+within this instance ESMProtein(sequence='HeC__O', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.19it/s]100%|██████████| 2/2 [00:00<00:00,  3.20it/s]100%|██████████| 2/2 [00:00<00:00,  3.20it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='HeCCCO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.18it/s]100%|██████████| 2/2 [00:00<00:00,  3.19it/s]100%|██████████| 2/2 [00:00<00:00,  3.19it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: HeCCCO
+c: ['PCCLiN', 'LiCCCN', 'HeCCCO']
+output seq after generation: ['PCCLiN', 'LiCCCN', 'HeCCCO']
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+Output logits requires_grad: torch.Size([21, 500])
+Target logits requires_grad: torch.Size([21])
+Epoch 8/10, Loss: 1.4200
+from smilesdataset: HeC__O HeCCCO
+from smilesdataset: P__LiN PCCLiN
+from smilesdataset: Li__CN LiCCCN
+input_seq: ('HeC__O', 'P__LiN', 'Li__CN')
+target_seq: ('HeCCCO', 'PCCLiN', 'LiCCCN')
+protein target check grad: ESMProtein(sequence='HeCCCO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='PCCLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='LiCCCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+within this instance ESMProtein(sequence='HeC__O', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  2.96it/s]100%|██████████| 2/2 [00:00<00:00,  2.98it/s]100%|██████████| 2/2 [00:00<00:00,  2.98it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='HeCCCO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.11it/s]100%|██████████| 2/2 [00:00<00:00,  3.12it/s]100%|██████████| 2/2 [00:00<00:00,  3.11it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: HeCCCO
+within this instance ESMProtein(sequence='P__LiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.16it/s]100%|██████████| 2/2 [00:00<00:00,  3.15it/s]100%|██████████| 2/2 [00:00<00:00,  3.15it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='PCCLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.14it/s]100%|██████████| 2/2 [00:00<00:00,  3.14it/s]100%|██████████| 2/2 [00:00<00:00,  3.14it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: PCCLiN
+within this instance ESMProtein(sequence='Li__CN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.12it/s]100%|██████████| 2/2 [00:00<00:00,  3.16it/s]100%|██████████| 2/2 [00:00<00:00,  3.15it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='LiCOCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.16it/s]100%|██████████| 2/2 [00:00<00:00,  3.16it/s]100%|██████████| 2/2 [00:00<00:00,  3.16it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: LiCCCN
+c: ['HeCCCO', 'PCCLiN', 'LiCCCN']
+output seq after generation: ['HeCCCO', 'PCCLiN', 'LiCCCN']
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+Output logits requires_grad: torch.Size([21, 500])
+Target logits requires_grad: torch.Size([21])
+Epoch 9/10, Loss: 1.0949
+from smilesdataset: P__LiN PCCLiN
+from smilesdataset: Li__CN LiCCCN
+from smilesdataset: HeC__O HeCCCO
+input_seq: ('P__LiN', 'Li__CN', 'HeC__O')
+target_seq: ('PCCLiN', 'LiCCCN', 'HeCCCO')
+protein target check grad: ESMProtein(sequence='PCCLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='LiCCCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+protein target check grad: ESMProtein(sequence='HeCCCO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+protein_tensor target check grad: torch.Size([7])
+within this instance ESMProtein(sequence='P__LiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  2.98it/s]100%|██████████| 2/2 [00:00<00:00,  3.01it/s]100%|██████████| 2/2 [00:00<00:00,  3.01it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='PCCLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.16it/s]100%|██████████| 2/2 [00:00<00:00,  3.17it/s]100%|██████████| 2/2 [00:00<00:00,  3.17it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: PCCLiN
+within this instance ESMProtein(sequence='Li__CN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.17it/s]100%|██████████| 2/2 [00:00<00:00,  3.15it/s]100%|██████████| 2/2 [00:00<00:00,  3.15it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='LiCCCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.12it/s]100%|██████████| 2/2 [00:00<00:00,  3.15it/s]100%|██████████| 2/2 [00:00<00:00,  3.14it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: LiPCCN
+within this instance ESMProtein(sequence='HeC__O', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.18it/s]100%|██████████| 2/2 [00:00<00:00,  3.14it/s]100%|██████████| 2/2 [00:00<00:00,  3.15it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+return from iterative function: [ESMProtein(sequence='HeCCLiO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.10it/s]100%|██████████| 2/2 [00:00<00:00,  3.11it/s]100%|██████████| 2/2 [00:00<00:00,  3.11it/s]
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+logits: torch.Size([1, 7, 500])
+protein seq: HeCOCO
+c: ['PCCLiN', 'LiPCCN', 'HeCOCO']
+output seq after generation: ['PCCLiN', 'LiPCCN', 'HeCOCO']
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+seq token from encoding.py: False
+seq tokens from esm3.py: False
+im in the local esm class
+sequence_tokens from esm3.py: False
+sequence_embed from esm3.py: True
+seq output check grad: torch.Size([1, 7, 500])
+Output logits requires_grad: torch.Size([21, 500])
+Target logits requires_grad: torch.Size([21])
+Epoch 10/10, Loss: 0.9212
+Training complete.
