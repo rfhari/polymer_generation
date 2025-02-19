@@ -1,182 +1,0 @@
-
-     active environment : /trace/group/mcgaughey/hariharr/esm3/esm_env
-    active env location : /trace/group/mcgaughey/hariharr/esm3/esm_env
-            shell level : 2
-       user config file : /trace/home/hariharr/.condarc
- populated config files : /trace/home/hariharr/.condarc
-          conda version : 23.10.0
-    conda-build version : not installed
-         python version : 3.11.5.final.0
-       virtual packages : __archspec=1=zen3
-                          __glibc=2.28=0
-                          __linux=4.18.0=0
-                          __unix=0=0
-       base environment : /trace/group/mcgaughey/hariharr/miniconda3  (writable)
-      conda av data dir : /trace/group/mcgaughey/hariharr/miniconda3/etc/conda
-  conda av metadata url : None
-           channel URLs : https://conda.anaconda.org/conda-forge/linux-64
-                          https://conda.anaconda.org/conda-forge/noarch
-                          https://repo.anaconda.com/pkgs/main/linux-64
-                          https://repo.anaconda.com/pkgs/main/noarch
-                          https://repo.anaconda.com/pkgs/r/linux-64
-                          https://repo.anaconda.com/pkgs/r/noarch
-          package cache : /trace/group/mcgaughey/hariharr/miniconda3/pkgs
-                          /trace/home/hariharr/.conda/pkgs
-       envs directories : /trace/group/mcgaughey/hariharr/miniconda3/envs
-                          /trace/home/hariharr/.conda/envs
-               platform : linux-64
-             user-agent : conda/23.10.0 requests/2.31.0 CPython/3.11.5 Linux/4.18.0-477.27.1.el8_8.x86_64 rhel/8.8 glibc/2.28 solver/libmamba conda-libmamba-solver/23.11.1 libmambapy/1.5.3
-                UID:GID : 2663120:100
-             netrc file : None
-           offline mode : False
-
-
-pwd: /trace/group/mcgaughey/hariharr/esm3
-Fetching 22 files:   0%|          | 0/22 [00:00<?, ?it/s]Fetching 22 files: 100%|██████████| 22/22 [00:00<00:00, 6692.88it/s]
-seq token from encoding.py: False
-seq tokens from esm3.py: False
-before epoch protein_tensor check grad: ESMProteinTensor(sequence=tensor([172,  24,  31,  31,  31,  33, 175]), structure=None, secondary_structure=None, sasa=None, function=None, residue_annotations=None, coordinates=None, potential_sequence_of_concern=False)
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-after epoch target output check grad: True
-seq token from encoding.py: False
-seq tokens from esm3.py: False
-before epoch protein_tensor check grad: ESMProteinTensor(sequence=tensor([172,  24,  31,  31,  31,  33, 175]), structure=None, secondary_structure=None, sasa=None, function=None, residue_annotations=None, coordinates=None, potential_sequence_of_concern=False)
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-after epoch target output check grad: True
-seq token from encoding.py: False
-seq tokens from esm3.py: False
-before epoch protein_tensor check grad: ESMProteinTensor(sequence=tensor([172,  24,  31,  31,  31,  33, 175]), structure=None, secondary_structure=None, sasa=None, function=None, residue_annotations=None, coordinates=None, potential_sequence_of_concern=False)
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-after epoch target output check grad: True
-from smilesdataset: P__LiN PCCLiN
-from smilesdataset: HeC__O HeCCCO
-from smilesdataset: Li__CN LiCCCN
-input_seq: ('P__LiN', 'HeC__O', 'Li__CN')
-target_seq: ('PCCLiN', 'HeCCCO', 'LiCCCN')
-protein target check grad: ESMProtein(sequence='PCCLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
-seq token from encoding.py: False
-seq tokens from esm3.py: False
-protein_tensor target check grad: torch.Size([7])
-protein target check grad: ESMProtein(sequence='HeCCCO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
-seq token from encoding.py: False
-seq tokens from esm3.py: False
-protein_tensor target check grad: torch.Size([7])
-protein target check grad: ESMProtein(sequence='LiCCCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
-seq token from encoding.py: False
-seq tokens from esm3.py: False
-protein_tensor target check grad: torch.Size([7])
-within this instance ESMProtein(sequence='P__LiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
-seq token from encoding.py: False
-seq tokens from esm3.py: False
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  2.51it/s]100%|██████████| 2/2 [00:00<00:00,  2.48it/s]100%|██████████| 2/2 [00:00<00:00,  2.48it/s]
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-logits: torch.Size([1, 7, 500])
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-logits: torch.Size([1, 7, 500])
-return from iterative function: [ESMProtein(sequence='P]CuLiN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
-seq token from encoding.py: False
-seq tokens from esm3.py: False
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  2.50it/s]100%|██████████| 2/2 [00:00<00:00,  2.57it/s]100%|██████████| 2/2 [00:00<00:00,  2.56it/s]
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-logits: torch.Size([1, 7, 500])
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-logits: torch.Size([1, 7, 500])
-protein seq: P*bLiN
-within this instance ESMProtein(sequence='HeC__O', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
-seq token from encoding.py: False
-seq tokens from esm3.py: False
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  2.69it/s]100%|██████████| 2/2 [00:00<00:00,  3.05it/s]100%|██████████| 2/2 [00:00<00:00,  2.99it/s]
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-logits: torch.Size([1, 7, 500])
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-logits: torch.Size([1, 7, 500])
-return from iterative function: [ESMProtein(sequence='HeCsTaO', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
-seq token from encoding.py: False
-seq tokens from esm3.py: False
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.91it/s]100%|██████████| 2/2 [00:00<00:00,  3.87it/s]100%|██████████| 2/2 [00:00<00:00,  3.87it/s]
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-logits: torch.Size([1, 7, 500])
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-logits: torch.Size([1, 7, 500])
-protein seq: HeC5CaO
-within this instance ESMProtein(sequence='Li__CN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)
-seq token from encoding.py: False
-seq tokens from esm3.py: False
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.87it/s]100%|██████████| 2/2 [00:00<00:00,  3.60it/s]100%|██████████| 2/2 [00:00<00:00,  3.64it/s]
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-logits: torch.Size([1, 7, 500])
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-logits: torch.Size([1, 7, 500])
-return from iterative function: [ESMProtein(sequence='LiTlArCN', secondary_structure=None, sasa=None, function_annotations=None, coordinates=None, plddt=None, ptm=None, potential_sequence_of_concern=False)]
-seq token from encoding.py: False
-seq tokens from esm3.py: False
-  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  3.93it/s]100%|██████████| 2/2 [00:00<00:00,  3.84it/s]100%|██████████| 2/2 [00:00<00:00,  3.85it/s]
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-logits: torch.Size([1, 7, 500])
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-logits: torch.Size([1, 7, 500])
-protein seq: LiBaNeCN
-c: ['P*bLiN', 'HeC5CaO', 'LiBaNeCN']
-output seq after generation: ['P*bLiN', 'HeC5CaO', 'LiBaNeCN']
-seq token from encoding.py: False
-seq tokens from esm3.py: False
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-seq output check grad: torch.Size([1, 7, 500])
-seq token from encoding.py: False
-seq tokens from esm3.py: False
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-seq output check grad: torch.Size([1, 7, 500])
-seq token from encoding.py: False
-seq tokens from esm3.py: False
-im in the local esm class
-sequence_tokens from esm3.py: False
-sequence_embed from esm3.py: True
-seq output check grad: torch.Size([1, 7, 500])
-Output logits requires_grad: torch.Size([21, 500])
-Target logits requires_grad: torch.Size([21])
-Traceback (most recent call last):
-  File "/trace/group/mcgaughey/hariharr/esm3/train_main.py", line 171, in <module>
-    train_model(model, criterion, optimizer, dataset)
-  File "/trace/group/mcgaughey/hariharr/esm3/train_main.py", line 126, in train_model
-    loss.backward()
-  File "/trace/group/mcgaughey/hariharr/esm3/esm_env/lib/python3.10/site-packages/torch/_tensor.py", line 626, in backward
-    torch.autograd.backward(
-  File "/trace/group/mcgaughey/hariharr/esm3/esm_env/lib/python3.10/site-packages/torch/autograd/__init__.py", line 340, in backward
-    grad_tensors_ = _make_grads(tensors, grad_tensors_, is_grads_batched=False)
-  File "/trace/group/mcgaughey/hariharr/esm3/esm_env/lib/python3.10/site-packages/torch/autograd/__init__.py", line 198, in _make_grads
-    raise RuntimeError(
-RuntimeError: grad can be implicitly created only for scalar outputs

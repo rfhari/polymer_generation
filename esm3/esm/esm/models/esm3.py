@@ -441,7 +441,7 @@ class ESM3(nn.Module, ESM3InferenceClient):
             sequence_tokens = encoding.tokenize_sequence(
                 input.sequence, self.tokenizers.sequence, add_special_tokens=True
             )
-            print("seq tokens from esm3.py:", sequence_tokens.requires_grad)
+            print("seq tokens from esm3.py:", sequence_tokens)
         if input.secondary_structure is not None:
             secondary_structure_tokens = encoding.tokenize_secondary_structure(
                 input.secondary_structure,
